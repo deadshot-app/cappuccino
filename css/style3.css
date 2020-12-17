@@ -1,0 +1,142 @@
+.linkin {
+  padding-left: 300px;
+  font-weight: bold;
+
+  font-size: large;
+}
+.edit {
+  color: black;
+  background: repeating-linear-gradient(
+    -55deg,
+    white,
+    white 10px,
+    lightgrey 10px,
+    lightgrey 20px
+  );
+}
+.family {
+  font-family: "Secular One", sans-serif;
+  font-weight: bold;
+  color: navy;
+  margin-bottom: 0px;
+}
+.About {
+  margin-top: 14px;
+}
+.history {
+  background-color: white;
+  color: black;
+}
+.strips {
+  background: repeating-radial-gradient(
+    circle,
+    white,
+    white 10px,
+    lightblue 10px,
+    lightblue 20px
+  );
+  border-radius: 7px;
+}
+body {
+  background-color: white;
+}
+h1,
+h4 {
+  font-family: "Pattaya", sans-serif;
+  letter-spacing: 4px;
+  font-size: 35px;
+  text-decoration: underline;
+}
+div ul {
+  word-spacing: 5px;
+  margin-bottom: 5px;
+}
+div ol {
+  word-spacing: 5px;
+  list-style: none;
+  font-weight: bold;
+}
+.foot {
+  color: #fff;
+}
+.footer {
+  background: #111;
+  padding: 80px 0;
+  margin-top: 10px;
+}
+.segment h3 {
+  font-family: courgette;
+  color: #fff;
+  letter-spacing: 3px;
+  /* margin: 10px 0; */
+  text-transform: uppercase;
+}
+.segment-two h2 {
+  color: #fff;
+  font-family: poppins;
+  text-transform: uppercase;
+}
+.segment-two h2:before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+.segment-two ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.segment-two ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+.segment-two ul li a {
+  color: #999;
+  text-decoration: none;
+}
+.segment-three h2 {
+  color: #fff;
+  font-family: poppins;
+  text-transform: uppercase;
+}
+.segment-three h2:before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+.segment-three a {
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.segment-three a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+.segment-four h2 {
+  color: #fff;
+  font-family: poppins;
+  text-transform: uppercase;
+}
+.segment-four h2:before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+.segment-four form input[type="submit"] {
+  background: #c65039;
+  border: none;
+  /* padding: 3px 15px;
+    margin-left: -5px; */
+  color: #fff;
+  text-transform: uppercase;
+}
+.under {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
